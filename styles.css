@@ -285,7 +285,29 @@ nav {
   max-width: 275px;
   margin-inline: auto;
 }
+.buynow_bt {
+    width: 170px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
 
+.buynow_bt a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    background-color:#d4d4d4 ;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.buynow_bt a:hover {
+    background-color: #254d4d;
+    color: #ffffff;
+}
 .client__content {
   padding: 4rem 1rem;
   background-color: var(--extra-light);
@@ -552,4 +574,4 @@ nav {
   .about__grid {
     gap: 4rem 2rem;
   }
-  }
+}
